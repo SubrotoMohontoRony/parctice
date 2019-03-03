@@ -1,0 +1,60 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	max-width:100%;
+}
+.first{
+	width:1200px;
+	margin:30px auto;
+	
+}
+.sec{
+	overflow:hidden;
+	
+}
+
+.col{
+	float:left;
+	width:50%;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+.bal{
+	position:relative;
+}
+.efect{
+	width:0;
+	height:0;
+	position:absolute;
+	background:#444343a1;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.bal:hover .efect{
+	transition:.8s;
+	width:100%;
+	height:100%;
+}
+.bal a{
+	top:60%;
+	left:50%;
+	transform:translate(-50%,-60%);
+	position:absolute;
+	font-size:20px;
+	color:white;
+	opacity:0;
+	transition:.8s;
+}
+.bal:hover a{
+	top:50%;
+	transform:translate(-50%,-50%);
+	opacity:1;
+	
+}
+
+
